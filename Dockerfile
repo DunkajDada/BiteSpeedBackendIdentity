@@ -1,4 +1,4 @@
-# Use a base image with Maven for building the application
+# Use a base image with Java and Maven for building the application
 FROM maven:3.8.4-openjdk-17 AS build
 
 # Set the working directory inside the container
@@ -20,10 +20,10 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the built JAR file from the build stage to the final image
-COPY --from=build /app/target/BiteSpeedBackendIdentity-0.0.1-SNAPSHOT.jar .
+COPY --from=build /app/target/demo-0.0.1-SNAPSHOT.jar .
 
 # Expose port 8080 (assuming your application listens on this port)
 EXPOSE 8080
 
 # Command to run the application when the container starts
-CMD ["java", "-jar", "BiteSpeedBackendIdentity-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
