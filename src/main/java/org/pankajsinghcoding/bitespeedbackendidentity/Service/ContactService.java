@@ -1,8 +1,9 @@
-package com.example.bitespeed.Service;
+package org.pankajsinghcoding.bitespeedbackendidentity.Service;
 
-import com.example.bitespeed.Entity.Contact;
-import com.example.bitespeed.Enum.LinkPrecedence;
-import com.example.bitespeed.Repository.ContactRepository;
+
+import org.pankajsinghcoding.bitespeedbackendidentity.Entity.Contact;
+import org.pankajsinghcoding.bitespeedbackendidentity.Enum.LinkPrecedence;
+import org.pankajsinghcoding.bitespeedbackendidentity.Repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

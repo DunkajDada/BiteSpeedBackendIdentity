@@ -1,7 +1,7 @@
-package com.example.bitespeed.Entity;
+package org.pankajsinghcoding.bitespeedbackendidentity.Entity;
 
-import com.example.bitespeed.Enum.LinkPrecedence;
 import jakarta.persistence.*;
+import org.pankajsinghcoding.bitespeedbackendidentity.Enum.LinkPrecedence;
 
 import java.time.LocalDateTime;
 

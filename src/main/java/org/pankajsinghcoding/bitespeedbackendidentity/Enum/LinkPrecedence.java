@@ -1,4 +1,4 @@
-package com.example.bitespeed.Enum;
+package org.pankajsinghcoding.bitespeedbackendidentity.Enum;
 
 public enum LinkPrecedence {
     PRIMARY,

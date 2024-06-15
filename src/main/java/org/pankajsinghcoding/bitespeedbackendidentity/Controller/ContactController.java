@@ -1,7 +1,7 @@
-package com.example.bitespeed.Controller;
+package org.pankajsinghcoding.bitespeedbackendidentity.Controller;
 
-import com.example.bitespeed.Entity.Contact;
-import com.example.bitespeed.Service.ContactService;
+import org.pankajsinghcoding.bitespeedbackendidentity.Entity.Contact;
+import org.pankajsinghcoding.bitespeedbackendidentity.Service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

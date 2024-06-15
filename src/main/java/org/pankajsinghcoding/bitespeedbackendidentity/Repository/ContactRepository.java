@@ -1,6 +1,6 @@
-package com.example.bitespeed.Repository;
+package org.pankajsinghcoding.bitespeedbackendidentity.Repository;
 
-import com.example.bitespeed.Entity.Contact;
+import org.pankajsinghcoding.bitespeedbackendidentity.Entity.Contact;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
